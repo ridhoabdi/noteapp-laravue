@@ -1,4 +1,4 @@
-# Note App Laravue
+# NoteApp Laravue
 NoteApp Laravue adalah aplikasi berbasis web yang menggabungkan Laravel dan Vue. Aplikasi ini dirancang untuk memudahkan pengguna dalam mencatat dan mengelola informasi serta kegiatan sehari-hari.
 
 ## Tech Stack
