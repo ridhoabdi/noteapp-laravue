@@ -13,9 +13,27 @@ NoteApp Laravue adalah aplikasi berbasis web yang menggabungkan Laravel dan Vue.
 - Menghapus catatan
 - Mencetak catatan dalam format PDF
 
-## Dokumentasi API 
+## Endpoint API
 
-## Hasil Pengujian API
+| Metode | Endpoint                                | Keterangan                                      |
+|--------|----------------------------------------|------------------------------------------------|
+| GET    | http://127.0.0.1:8000/api/notes        | Menampilkan semua catatan                      |
+| POST   | http://127.0.0.1:8000/api/notes        | Menyimpan catatan                              |
+| GET    | http://127.0.0.1:8000/api/notes/{id}   | Menampilkan catatan berdasarkan id             |
+| GET    | http://127.0.0.1:8000/api/notes/{id}/edit | Mengedit catatan berdasarkan id              |
+| PUT    | http://127.0.0.1:8000/api/notes/{id}/edit | Menyimpan perubahan pada catatan yang telah diedit berdasarkan id |
+| DELETE | http://127.0.0.1:8000/api/notes/{id}/delete | Menghapus catatan berdasarkan id              |
+| GET    | http://127.0.0.1:8000/api/notes/{id}/print | Mencetak catatan berdasarkan id               |
 
 ## Screenshot Aplikasi
- 
+Berikut adalah screenshot dari aplikasi NoteApp Laravue
+
+### Melihat Semua Catatan
+![Melihat semua catatan](https://github.com/ridhoabdi/noteapp-laravue/blob/main/dokumentasi/screenshot/NoteApp%20Laravue%20-%20View.jpg)
+
+### Melihat Detail Catatan
+![Melihat Detail Catatan](https://github.com/ridhoabdi/noteapp-laravue/blob/main/dokumentasi/screenshot/NoteApp%20Laravue%20-%20Detail.jpg)
+
+### Hasil Export Catatan dalam Format PDF
+![Hasil Export Catatan dalam Format PDF](https://github.com/ridhoabdi/noteapp-laravue/blob/main/dokumentasi/screenshot/NoteApp%20Laravue%20-%20Print.jpg)
+
